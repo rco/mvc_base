@@ -2,11 +2,15 @@
 <s:Application xmlns:fx="http://ns.adobe.com/mxml/2009" 
 			   xmlns:mvc="com.rodcez.*" 
 			   xmlns:s="library://ns.adobe.com/flex/spark" 
-			   xmlns:mx="library://ns.adobe.com/flex/mx">
+			   xmlns:mx="library://ns.adobe.com/flex/mx" 
+			   xmlns:components="com.rodcez.view.components.*">
 	
 	<fx:Declarations>
 		<mvc:MainAppContext contextView="{this}" />
 	</fx:Declarations>
 	
-	
+	<s:Panel title="Dummy MVC Interaction">
+		<components:DummyDataView width="500" height="500" />
+	</s:Panel>
+		
 </s:Application>
